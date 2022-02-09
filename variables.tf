@@ -32,12 +32,6 @@ variable "enable_nat_gateway" {
   description = "When set to 'true' a NAT GW will be created in the VPC"
 }
 
-variable "encryption_enabled" {
-  type        = bool
-  default     = true
-  description = "When set to 'true' the resource will have AES256 encryption enabled by default"
-}
-
 variable "tags" {
   type        = map(string)
   default     = {}

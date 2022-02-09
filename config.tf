@@ -37,7 +37,7 @@ resource "aws_config_configuration_recorder_status" "config_recorder_status" {
 # -----------------------------------------------------------
 # set up the Conformance Pack
 # -----------------------------------------------------------
-resource "aws_config_conformance_pack" "CIS" {
+resource "aws_config_conformance_pack" "cis" {
   name = "cisBestPractices"
 
   template_body = <<EOT
