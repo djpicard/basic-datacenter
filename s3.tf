@@ -1,7 +1,3 @@
-locals {
-
-}
-
 # -----------------------------------------------------------
 # Create AWS S3 bucket for AWS Config to record configuration history and snapshots
 # -----------------------------------------------------------

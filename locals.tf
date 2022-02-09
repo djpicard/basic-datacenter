@@ -1,3 +1,7 @@
+# -----------------------------------------------------------
+# set up the Locals used by the rest of the configuration
+# -----------------------------------------------------------
+
 locals {
   # cidr should be a /16 in this instance
   private_network = cidrsubnet(var.cidr, 1, 1)

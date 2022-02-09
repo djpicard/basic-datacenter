@@ -1,3 +1,7 @@
+# -----------------------------------------------------------
+# Get the needed data references
+# -----------------------------------------------------------
+
 # Get current region of Terraform stack
 data "aws_region" "current" {}
 

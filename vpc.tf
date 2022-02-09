@@ -1,8 +1,9 @@
-#
+# -----------------------------------------------------------
 # Resources and examples were used from the AWS Terraform VPC Module
 #
 # Examples can be found here: https://github.com/terraform-aws-modules/terraform-aws-vpc
-#
+# -----------------------------------------------------------
+
 # -----------------------------------------------------------
 # set up the AWS VPC, subnets, and default NACLs
 # -----------------------------------------------------------

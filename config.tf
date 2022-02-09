@@ -1,8 +1,8 @@
-#
+# -----------------------------------------------------------
 # Resources and examples were used from the AWS Config Blogs
 #
 # Examples can be found here: https://aws.amazon.com/blogs/mt/how-to-deploy-aws-config-conformance-packs-using-terraform/
-#
+# -----------------------------------------------------------
 
 # -----------------------------------------------------------
 # set up the AWS Config Recorder
